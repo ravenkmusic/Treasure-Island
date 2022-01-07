@@ -38,8 +38,6 @@ if direction == "left":
     if doors == "2":
       print("This door had the treasure! You win!")
     if doors == "3":
-      print("Koopa kid hopped out and attacked you. Game over.")
-    else:
       print("Yoshi went rogue. He was hiding in this door and waited for you to open it and shanked you. Game over.")
   else:
     print("You fall through a trap door that suddenly appeared when you tried to leave. Game over.")
