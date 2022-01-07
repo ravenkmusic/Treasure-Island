@@ -31,11 +31,11 @@ direction = input("On treasure Island is Bowser's castle. You are Mario and you 
 
 if direction == "left":
   pull_or_exit = input('You\'ve chosen left. You are now in a library. You can let your curiosity lead you and pull a book off the shelf or you can exit the room. Type "pull" or "exit".')
-  if pull_or_exit = pull:
+  if pull_or_exit == pull:
     doors = input('You pull the book and it opens a secret passage. You enter it and see three doors. Which one do you enter? Type "1", "2" or "3".')
-    if doors = "1":
+    if doors == "1":
       print("You get blown up by a Bob-omb. Game over.")
-    if doors = "2":
+    if doors == "2":
       print("This door had the treasure! You win!")
     else:
       print("Koopa kid hopped out and attacked you. Game over.")
