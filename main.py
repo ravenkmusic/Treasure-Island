@@ -27,9 +27,15 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-direction = input("On treasure Island is Bowser's castle. You are Mario and you have just entered inside. Do you want to turn left or right? Type left or right.")
+direction = input("On treasure Island is Bowser's castle. You are Mario and you have just entered inside. Do you want to turn left or right? Type left or right.").lower()
 
 if direction == "left":
-  input("You've chosen left. You're in a library. You can let your curiosity lead you and pull a book off the shelf or you can exit the room. Type pull or exit.")
+  pull_or_exit = input('You\'ve chosen left. You are now in a library. You can let your curiosity lead you and pull a book off the shelf or you can exit the room. Type "pull" or "exit".')
+  if pull_or_exit = pull:
+    doors = input('You pull the book and it opens a secret passage. You enter it and see three doors. Which one do you enter? Type "1" or "2".')
+    if doors = "1":
+      print('')
+  else:
+    print("You fall through a trap door. Game over.")
 else:
-  print("You've been spotted abynd a temple guard and they seize you. Game over.")
+  print("You've been spotted by a temple guard and they seize you. Game over.")
