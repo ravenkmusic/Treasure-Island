@@ -42,4 +42,4 @@ if direction == "left":
   else:
     print("You fall through a trap door that suddenly appeared when you tried to leave. Game over.")
 else:
-  print("You've been spotted by a temple guard and they seize you. Game over.")
+  print("You've been spotted by a castle guard and they seize you. Game over.")
