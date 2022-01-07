@@ -35,10 +35,12 @@ if direction == "left":
     doors = input('You pull the book and it opens a secret passage. You enter it and see three doors. Which one do you enter? Type "1", "2" or "3".\n')
     if doors == "1":
       print("You get blown up by a Bob-omb. Game over.")
-    if doors == "2":
+    elif doors == "2":
       print("This door had the treasure! You win!")
-    if doors == "3":
+    elif doors == "3":
       print("Yoshi went rogue. He was hiding in this door and waited for you to open it and shanked you. Game over.")
+    else:
+      print("You got distracted while for a door that didn't exist. Koopa Kid jumped out and attacked you. Game over.")
   else:
     print("You fall through a trap door that suddenly appeared when you tried to leave. Game over.")
 else:
