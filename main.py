@@ -29,7 +29,7 @@ print("Your mission is to find the treasure.")
 
 direction = input("On treasure Island is Bowser's castle. You are Mario and you have just entered inside. Do you want to turn left or right? Type left or right.")
 
-if direction == left:
+if direction == "left":
   input("You've chosen left. You're in a library. You can let your curiosity lead you and pull a book off the shelf or you can exit the room. Type pull or exit.")
 else:
   print("You've been spotted abynd a temple guard and they seize you. Game over.")
